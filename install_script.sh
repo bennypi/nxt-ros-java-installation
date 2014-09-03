@@ -27,10 +27,8 @@ echo "------werden angelegt----------------------"
 sudo groupadd lego
 sudo usermod -a -G lego $username
 echo "SUBSYSTEMS==\"usb\", ATTRS{idVendor}==\"0694\", GROUP=\"lego\", MODE=\"0660\"" > /tmp/70-lego.rules && sudo mv /tmp/70-lego.rules /etc/udev/rules.d/70-lego.rules
-sudo service udev restart
 echo "-------------------------------------------"
 echo "----------Installation abgeschlossen-------"
 echo "----------Computer neu starten-------------"
 echo "----------config_script.sh ausführen-------"
-EOF
 
