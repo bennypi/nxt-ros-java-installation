@@ -37,5 +37,5 @@ cd ../example
 ./init.sh
 echo "-------------------------------------------"
 echo "----------Installation abgeschlossen-------"
-echo "----------Computer neu starten-------------"
+echo "----------eclipse starten------------------"
 
