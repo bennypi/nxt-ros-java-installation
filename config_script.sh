@@ -1,4 +1,5 @@
 #!/bin/bash
+username=$(whoami)
 mkdir /home/$username/fuerte_workspace
 echo "-------------------------------------------"
 echo "-----------ROS initialisieren--------------"
